@@ -1,0 +1,14 @@
+openapi: 3.0.0
+info:
+  title: Prudential Test API
+  version: 1.0.0
+servers:
+  - url: https://api.prudential.com  # Fixed: Secure protocol
+paths:
+  /health:
+    get:
+      operationId: getHealth
+      description: Returns the health status of the API service. # Fixed: Added description
+      responses:
+        '200':
+          description: OK
