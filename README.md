@@ -1,3 +1,4 @@
+![Build Status](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME/actions/workflows/lint.yml/badge.svg)
 # 🛡️ API Governance & Security Linter
 
 A professional Python-based CLI tool designed to automate the governance and security audit of OpenAPI specifications. 
