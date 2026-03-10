@@ -1,0 +1,13 @@
+openapi: 3.0.0
+info:
+  title: Prudential Test API
+  version: 1.0.0
+servers:
+  - url: http://api.prudential.internal  # THIS SHOULD TRIGGER THE LINTER
+paths:
+  /health:
+    get:
+      operationId: getHealth
+      responses:
+        '200':
+          description: OK
